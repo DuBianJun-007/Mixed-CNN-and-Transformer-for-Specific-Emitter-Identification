@@ -23,7 +23,7 @@ pip install -r requirements.txt  # install
 <details open>
 <summary>Training weight files</summary>
 
-All training weights are publicly available in the folder [best_models](https://github.com/DuBianJun-007/Mixed-CNN-and-Transformer-for-Specific-Emitter-Identification/blob/main/best_models)
+All training weights are publicly available in the folder [best_models](https://github.com/DuBianJun-007/Mixed-CNN-and-Transformer-for-Specific-Emitter-Identification/tree/main/best_models)
 </details>
 
 <details open>
@@ -33,10 +33,10 @@ All training weights are publicly available in the folder [best_models](https://
 The training data should be placed in the _dataset_train_ folder, directory structure:
 
 step1 - Download the public dataset from [Zenodo](https://zenodo.org/records/3876140) \
-step2 - Use the script [Bluetooth_ADC2IQ.py]() to convert ADC data to IQ data  \
-step3 - Use the script [data partitioning.py]() to partition the IQ data into separate files with fixed sequence lengths         \
-step4 - Use the script [data reconstitution.py]() to convert a _.txt_ text file to a _.pt_ file in tensor format for quick readability         \
-step5 - run [trainer.py]()         
+step2 - Use the script [Bluetooth_ADC2IQ.py](https://github.com/DuBianJun-007/Mixed-CNN-and-Transformer-for-Specific-Emitter-Identification/blob/main/datasets/Bluetooth/Bluetooth_ADC2IQ.py) to convert ADC data to IQ data  \
+step3 - Use the script [data partitioning.py](https://github.com/DuBianJun-007/Mixed-CNN-and-Transformer-for-Specific-Emitter-Identification/blob/main/datasets/Bluetooth/data%20partitioning.py) to partition the IQ data into separate files with fixed sequence lengths         \
+step4 - Use the script [data reconstitution.py](https://github.com/DuBianJun-007/Mixed-CNN-and-Transformer-for-Specific-Emitter-Identification/blob/main/datasets/Bluetooth/data%20reconstitution.py) to convert a _.txt_ text file to a _.pt_ file in tensor format for quick readability         \
+step5 - run [trainer.py](https://github.com/DuBianJun-007/Mixed-CNN-and-Transformer-for-Specific-Emitter-Identification/blob/main/trainer.py)         
 
 
 
